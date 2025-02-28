@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>NeuroFile.iDoc</string>
+    <key>CFBundleName</key>
+    <string>iDoc</string>
+    <key>CFBundleDisplayName</key>
+    <string>iDoc</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>This app requires access to Health data.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>This app requires permission to update Health data.</string>
+</dict>
+</plist>

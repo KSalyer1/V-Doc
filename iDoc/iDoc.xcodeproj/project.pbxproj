@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3A63D452D6CF0F1000CFC5B /* iDoc Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F3A63D442D6CF0F1000CFC5B /* iDoc Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3A63D462D6CF0F1000CFC5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A63D2C2D6CF0F0000CFC5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A63D432D6CF0F1000CFC5B;
+			remoteInfo = "iDoc Watch App";
+		};
+		F3A63E652D6D382F000CFC5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A63D2C2D6CF0F0000CFC5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A63D332D6CF0F0000CFC5B;
+			remoteInfo = iDoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3A63D572D6CF0F2000CFC5B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F3A63D452D6CF0F1000CFC5B /* iDoc Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F307B3622D6D6A0700553F31 /* iDoc Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iDoc Watch App.entitlements"; sourceTree = "<group>"; };
+		F307B3632D6D6A1400553F31 /* iDoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDoc.entitlements; sourceTree = "<group>"; };
+		F3A63D342D6CF0F0000CFC5B /* iDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A63D442D6CF0F1000CFC5B /* iDoc Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDoc Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A63E612D6D382F000CFC5B /* iDocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F3A63D952D6CF516000CFC5B /* Exceptions for "iDoc (Watch App)" folder in "iDoc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/iDoc_WatchApp.swift,
+				App/Info.plist,
+				Assets.xcassets,
+				Controllers/WatchHealthManager.swift,
+				Controllers/WorkoutSessionManager.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Resources/Assets.xcassets,
+				Services/WatchConnectivityService.swift,
+				Views/ContentView.swift,
+				Views/LiveBPMView.swift,
+			);
+			target = F3A63D332D6CF0F0000CFC5B /* iDoc */;
+		};
+		F3A63D962D6CF516000CFC5B /* Exceptions for "iDoc (Watch App)" folder in "iDoc Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/iDoc_WatchApp.swift,
+				Controllers/WatchHealthManager.swift,
+				Controllers/WorkoutSessionManager.swift,
+				Resources/Assets.xcassets,
+				Services/WatchConnectivityService.swift,
+				Views/ContentView.swift,
+				Views/LiveBPMView.swift,
+			);
+			target = F3A63D432D6CF0F1000CFC5B /* iDoc Watch App */;
+		};
+		F3A63E752D6D474D000CFC5B /* Exceptions for "iDoc (iOS App)" folder in "iDoc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Info.plist,
+			);
+			target = F3A63D332D6CF0F0000CFC5B /* iDoc */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F3A63E5B2D6D2848000CFC5B /* Exceptions for "iDoc (iOS App)" folder in "Copy Bundle Resources" phase from "iDoc" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F3A63D322D6CF0F0000CFC5B /* Resources */;
+			membershipExceptions = (
+				Resources/iDoc.entitlements,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F3A63D362D6CF0F0000CFC5B /* iDoc (iOS App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F3A63E752D6D474D000CFC5B /* Exceptions for "iDoc (iOS App)" folder in "iDoc" target */,
+				F3A63E5B2D6D2848000CFC5B /* Exceptions for "iDoc (iOS App)" folder in "Copy Bundle Resources" phase from "iDoc" target */,
+			);
+			path = "iDoc (iOS App)";
+			sourceTree = "<group>";
+		};
+		F3A63D6D2D6CF25C000CFC5B /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F3A63D902D6CF516000CFC5B /* iDoc (Watch App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F3A63D952D6CF516000CFC5B /* Exceptions for "iDoc (Watch App)" folder in "iDoc" target */,
+				F3A63D962D6CF516000CFC5B /* Exceptions for "iDoc (Watch App)" folder in "iDoc Watch App" target */,
+			);
+			path = "iDoc (Watch App)";
+			sourceTree = "<group>";
+		};
+		F3A63E622D6D382F000CFC5B /* iDocTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iDocTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A63D312D6CF0F0000CFC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A63D412D6CF0F1000CFC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A63E5E2D6D382F000CFC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3A63D2B2D6CF0F0000CFC5B = {
+			isa = PBXGroup;
+			children = (
+				F307B3632D6D6A1400553F31 /* iDoc.entitlements */,
+				F307B3622D6D6A0700553F31 /* iDoc Watch App.entitlements */,
+				F3A63D362D6CF0F0000CFC5B /* iDoc (iOS App) */,
+				F3A63D902D6CF516000CFC5B /* iDoc (Watch App) */,
+				F3A63D6D2D6CF25C000CFC5B /* Shared */,
+				F3A63E622D6D382F000CFC5B /* iDocTests */,
+				F3A63D352D6CF0F0000CFC5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A63D352D6CF0F0000CFC5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A63D342D6CF0F0000CFC5B /* iDoc.app */,
+				F3A63D442D6CF0F1000CFC5B /* iDoc Watch App.app */,
+				F3A63E612D6D382F000CFC5B /* iDocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3A63D332D6CF0F0000CFC5B /* iDoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A63D582D6CF0F2000CFC5B /* Build configuration list for PBXNativeTarget "iDoc" */;
+			buildPhases = (
+				F3A63D302D6CF0F0000CFC5B /* Sources */,
+				F3A63D312D6CF0F0000CFC5B /* Frameworks */,
+				F3A63D322D6CF0F0000CFC5B /* Resources */,
+				F3A63D572D6CF0F2000CFC5B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A63D472D6CF0F1000CFC5B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F3A63D362D6CF0F0000CFC5B /* iDoc (iOS App) */,
+				F3A63D6D2D6CF25C000CFC5B /* Shared */,
+				F3A63D902D6CF516000CFC5B /* iDoc (Watch App) */,
+			);
+			name = iDoc;
+			packageProductDependencies = (
+			);
+			productName = iDoc;
+			productReference = F3A63D342D6CF0F0000CFC5B /* iDoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3A63D432D6CF0F1000CFC5B /* iDoc Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A63D542D6CF0F2000CFC5B /* Build configuration list for PBXNativeTarget "iDoc Watch App" */;
+			buildPhases = (
+				F3A63D402D6CF0F1000CFC5B /* Sources */,
+				F3A63D412D6CF0F1000CFC5B /* Frameworks */,
+				F3A63D422D6CF0F1000CFC5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iDoc Watch App";
+			packageProductDependencies = (
+			);
+			productName = "iDoc Watch App";
+			productReference = F3A63D442D6CF0F1000CFC5B /* iDoc Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3A63E602D6D382F000CFC5B /* iDocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A63E672D6D382F000CFC5B /* Build configuration list for PBXNativeTarget "iDocTests" */;
+			buildPhases = (
+				F3A63E5D2D6D382F000CFC5B /* Sources */,
+				F3A63E5E2D6D382F000CFC5B /* Frameworks */,
+				F3A63E5F2D6D382F000CFC5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A63E662D6D382F000CFC5B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F3A63E622D6D382F000CFC5B /* iDocTests */,
+			);
+			name = iDocTests;
+			packageProductDependencies = (
+			);
+			productName = iDocTests;
+			productReference = F3A63E612D6D382F000CFC5B /* iDocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A63D2C2D6CF0F0000CFC5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F3A63D332D6CF0F0000CFC5B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F3A63D432D6CF0F1000CFC5B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F3A63E602D6D382F000CFC5B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F3A63D332D6CF0F0000CFC5B;
+					};
+				};
+			};
+			buildConfigurationList = F3A63D2F2D6CF0F0000CFC5B /* Build configuration list for PBXProject "iDoc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3A63D2B2D6CF0F0000CFC5B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F3A63D352D6CF0F0000CFC5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A63D332D6CF0F0000CFC5B /* iDoc */,
+				F3A63D432D6CF0F1000CFC5B /* iDoc Watch App */,
+				F3A63E602D6D382F000CFC5B /* iDocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A63D322D6CF0F0000CFC5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A63D422D6CF0F1000CFC5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A63E5F2D6D382F000CFC5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A63D302D6CF0F0000CFC5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A63D402D6CF0F1000CFC5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A63E5D2D6D382F000CFC5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3A63D472D6CF0F1000CFC5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A63D432D6CF0F1000CFC5B /* iDoc Watch App */;
+			targetProxy = F3A63D462D6CF0F1000CFC5B /* PBXContainerItemProxy */;
+		};
+		F3A63E662D6D382F000CFC5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A63D332D6CF0F0000CFC5B /* iDoc */;
+			targetProxy = F3A63E652D6D382F000CFC5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3A63D522D6CF0F2000CFC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		F3A63D532D6CF0F2000CFC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		F3A63D552D6CF0F2000CFC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iDoc Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 449KWN8U2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/keithsalyer/Desktop/My Documents/Coding Projects/iDoc (new)/iDoc/iDoc (Watch App)/App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iDoc Utility";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit data to monitor your heart rate in real time.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes workout data to HealthKit.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = NeuroFile.iDoc;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeuroFile.iDoc.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		F3A63D562D6CF0F2000CFC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iDoc Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 449KWN8U2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/keithsalyer/Desktop/My Documents/Coding Projects/iDoc (new)/iDoc/iDoc (Watch App)/App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iDoc Utility";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit data to monitor your heart rate in real time.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes workout data to HealthKit.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = NeuroFile.iDoc;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeuroFile.iDoc.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		F3A63D592D6CF0F2000CFC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iDoc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 449KWN8U2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/keithsalyer/Desktop/My Documents/Coding Projects/iDoc (new)/iDoc/iDoc (iOS App)/App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iDoc;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeuroFile.iDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3A63D5A2D6CF0F2000CFC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iDoc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 449KWN8U2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/keithsalyer/Desktop/My Documents/Coding Projects/iDoc (new)/iDoc/iDoc (iOS App)/App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iDoc;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeuroFile.iDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3A63E682D6D382F000CFC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 449KWN8U2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeuroFile.iDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iDoc";
+			};
+			name = Debug;
+		};
+		F3A63E692D6D382F000CFC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 449KWN8U2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeuroFile.iDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iDoc";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A63D2F2D6CF0F0000CFC5B /* Build configuration list for PBXProject "iDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A63D522D6CF0F2000CFC5B /* Debug */,
+				F3A63D532D6CF0F2000CFC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A63D542D6CF0F2000CFC5B /* Build configuration list for PBXNativeTarget "iDoc Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A63D552D6CF0F2000CFC5B /* Debug */,
+				F3A63D562D6CF0F2000CFC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A63D582D6CF0F2000CFC5B /* Build configuration list for PBXNativeTarget "iDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A63D592D6CF0F2000CFC5B /* Debug */,
+				F3A63D5A2D6CF0F2000CFC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A63E672D6D382F000CFC5B /* Build configuration list for PBXNativeTarget "iDocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A63E682D6D382F000CFC5B /* Debug */,
+				F3A63E692D6D382F000CFC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3A63D2C2D6CF0F0000CFC5B /* Project object */;
+}
